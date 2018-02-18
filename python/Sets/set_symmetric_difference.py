@@ -1,0 +1,5 @@
+input()
+set_en = set(map(int, input().split()))
+input()
+set_fr = set(map(int, input().split()))
+print(len(set_en.symmetric_difference(set_fr)))
